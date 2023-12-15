@@ -1,0 +1,29 @@
+.logo {
+    width: 20%;
+  }
+  .user {
+    width: 5%;
+  }
+  .nav-link {
+    color: white;
+  }
+  .nav2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav2 .ul2 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+  }
+  .nav2 .ul2 li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+  }
+  .nav2 .ul2 li a:hover {
+    color: #48cae4;
+    border-bottom: 1px solid #48cae4;
+  }
+  

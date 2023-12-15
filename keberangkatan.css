@@ -1,0 +1,90 @@
+.logo {
+  width: 20%;
+}
+.user {
+  width: 5%;
+}
+.nav-link {
+  color: white;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav2 .ul2 {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+.nav2 .ul2 li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+.nav2 .ul2 li a:hover {
+  color: #48cae4;
+  border-bottom: 1px solid #48cae4;
+}
+.bus {
+  width: 80px;
+  height: 80px;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+.panah {
+  width: 2%;
+}
+.th {
+  background-color: #dee2e6;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+.tabel1 {
+  align-items: center;
+  justify-content: space-around;
+}
+.input1 {
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.input2 {
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input3 {
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+a.active {
+  background-color: #48cae4;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.transportasi {
+  width: 100%;
+  height: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .nav2 .ul2 li a {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav2 .ul2 li a {
+    font-size: 20px;
+  }
+}

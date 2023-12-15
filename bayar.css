@@ -1,0 +1,98 @@
+.logo {
+  width: 20%;
+}
+.user {
+  width: 5%;
+}
+.nav-link {
+  color: white;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav2 .ul2 {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+.nav2 .ul2 li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+.nav2 .ul2 li a:hover {
+  color: #48cae4;
+  border-bottom: 1px solid #48cae4;
+}
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    background: black;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    height: calc(100% - 20px);
+  }
+  li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: black;
+      position: absolute;
+      left: 0;
+      top: 5px;
+      border-radius: 10px;
+    }
+  }
+}
+.layar {
+  display: flex;
+}
+.kanan {
+  width: 100%;
+}
+.kiri {
+  width: 60%;
+}
+.harga1 {
+  padding-left: 42px;
+}
+.harga2 {
+  padding-left: 50px;
+}
+.tombol {
+  text-decoration: none;
+  margin-left: 125px;
+}
+
+@media only screen and (max-width: 600px) {
+  .layar {
+    display: grid;
+  }
+  .kiri {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .layar {
+    display: grid;
+  }
+  .kiri {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
